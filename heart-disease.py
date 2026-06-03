@@ -19,8 +19,8 @@ st.sidebar.title("Navigation")
 nav = st.sidebar.selectbox("Go to", ("Home", "Dataset", "Exploratory Data Analysis","Modelling", "Prediction", "About"))
 
 # Dataset Page
-url = "https://storage.googleapis.com/dqlab-dataset/heart_disease.csv"
-df = pd.read_csv(url)
+# url = "https://storage.googleapis.com/dqlab-dataset/heart_disease.csv"
+# df = pd.read_csv(url)
 
 # Function Heart Disease Prediction
 def heart():
